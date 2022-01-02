@@ -25,9 +25,12 @@
         <img class="illustration" src="Resources/images/illustration-1.svg">
         <h1>All your files in one secure location, accessible anywhere.</h1>
             <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-            <input type="email" class="email-input" placeholder="Enter your email...">
-            <br>
-                <button class="header-btn">Get Started</button>
+            
+            <form>
+                <input type="email" class="email-input" placeholder="Enter your email...">
+                <br>
+                <input class="header-btn" value="Get Started" type="submit">
+            </form>
     </header>
 
     <main>
@@ -65,8 +68,10 @@
         <div class="access-wrapper">
             <h2 class="access-title">Get early access today</h2>
                 <p class="access-p">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-                    <input type="text" class="access-input" placeholder="email@example.com">
-                        <button class="header-btn" id="access-btn">Get Started For Free</button>
+                <form>
+                    <input type="email" class="access-input" placeholder="email@example.com" required>
+                        <input class="header-btn" id="access-btn" type="submit" value="Get Started For Free">
+                </form>
         </div>
     </div>
 
