@@ -100,10 +100,6 @@ header p {
     border: var(--bright-blue) 1.5px solid;
 }
 
-input:valid {
-    border-color: var(--bright-blue);
-}
-
 input:invalid {
     border-color: red;
 }
