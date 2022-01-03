@@ -100,15 +100,21 @@ header p {
     border: var(--bright-blue) 1.5px solid;
 }
 
-input:invalid {
-    border-color: red;
+.input-container {
+    height: 120px;
+}
+
+.input-container[data-error] input:invalid {
+    border-color: #c92432;
+    background: #fffafa;
+    content: attr(data-error);
 }
 
 .header-btn {
     width: 80%;
     height: 55px;
-    background-color: var(--bright-blue);
-    color: var(--light-grey-blue);
+    background-color: var(--bright-blue) !important;
+    color: var(--light-grey-blue) !important;
     border-radius: 5px;
     border: none;
     font-size: 1.1em;
