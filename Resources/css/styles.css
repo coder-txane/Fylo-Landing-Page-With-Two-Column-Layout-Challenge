@@ -104,10 +104,9 @@ header p {
     height: 120px;
 }
 
-.input-container[data-error] input:invalid {
+.input-container input:invalid {
     border-color: #c92432;
     background: #fffafa;
-    content: attr(data-error);
 }
 
 .header-btn {
@@ -418,6 +417,10 @@ footer {
 @media only screen and (min-width: 870px) and (max-width: 1099px) {
     .feature {
         margin-top: 250px;
+    }
+
+    .feature-p {
+        margin: auto;
     }
     
     .mobile-curve {
